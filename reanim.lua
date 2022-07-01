@@ -14,7 +14,7 @@ return function()
 	Mouse.Button1Up:Connect(function() MouseDown=false end)
 	
 	local SplitTorsoHats = {
-		{"81504106",CFrame.new(0,0,0)*CFrame.Angles(math.rad(90),0,0)}
+		{"81504106",CFrame.new(0,0,.6)*CFrame.Angles(math.rad(90),0,0)}
 	}
 	
 	
@@ -101,9 +101,9 @@ return function()
 						FlingEnabled = true
 						for i=1,30 do
 							FlingPart.CFrame= OtherPlayer.HumanoidRootPart.CFrame * CFrame.new(0,0,8)
-							task.wait(.1)
+							wait(.1)
 							FlingPart.CFrame= OtherPlayer.HumanoidRootPart.CFrame * CFrame.new(0,0,-8)
-							task.wait(.1)
+							wait(.1)
 						end
 						FlingEnabled = false
 					else
