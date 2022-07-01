@@ -1,7 +1,6 @@
 --_reanimate()
 --getgenv().Reanimation = 'Simple'
 --loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
-getgenv()._reanimate()
 --[[
 
     - padero#0001 (made for pendulum hub dm me if you think otherwise)
@@ -23,7 +22,7 @@ getgenv()._reanimate()
 
 ]]
 
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
 local folder = game:GetObjects('rbxassetid://9206853840')[1]
 -- i might make an instance serializer later
 folder.Parent = workspace.non
