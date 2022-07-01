@@ -14,7 +14,7 @@ return function()
 	Mouse.Button1Up:Connect(function() MouseDown=false end)
 	
 	local SplitTorsoHats = {
-		{"81504106",CFrame.new(0,0,.6)*CFrame.Angles(math.rad(90),0,0)}
+		{"81504106",CFrame.new(0,0,1)*CFrame.Angles(math.rad(90),0,0)}
 	}
 	
 	
