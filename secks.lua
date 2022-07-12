@@ -1149,6 +1149,7 @@ Weld.Part0 = LArm2 -- What your welding the hat to (has to be a BasePart)
 LArm2.Transparency = 1
 Weld.C0 = CFrame.new(0,0,0)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(0)) -- Offset & Angles
 local hat1 = game:GetService("Workspace").non[game.Players.LocalPlayer.Name]["Pal Hair"].Handle:FindFirstChildOfClass("SpecialMesh")
+hat1:Destroy()
 game:GetService('Workspace').non["Pal Hair"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
 local plr = game.Players.LocalPlayer
 local chr = plr.Character
