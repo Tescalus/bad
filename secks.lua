@@ -21,7 +21,6 @@
 	https://www.roblox.com/catalog/63690008/Pal-Hair
 
 ]]
-
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/ReanimMain.lua'))()
 local folder = game:GetObjects('rbxassetid://9206853840')[1]
 -- i might make an instance serializer later
@@ -1137,7 +1136,6 @@ Torso2.Transparency = 1
 Weld.C0 = CFrame.new(0,0,0)*CFrame.Angles(math.rad(90),math.rad(0),math.rad(0)) -- Offset & Angles
 local hat1 = game:GetService("Workspace").non[game.Players.LocalPlayer.Name]["SeeMonkey"].Handle:FindFirstChildOfClass("SpecialMesh")
 game:GetService('Workspace').non["SeeMonkey"].Handle:FindFirstChildOfClass("SpecialMesh"):Destroy()
-hat1:Destroy()
 local plr = game.Players.LocalPlayer
 local chr = plr.Character
 local hat2 = chr["Pal Hair"].Handle -- The hat you choose
